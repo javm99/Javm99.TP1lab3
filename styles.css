@@ -42,3 +42,12 @@ body{
     width: 70%;
 
 }
+
+img{
+    max-width: 150px;
+    float: left;
+    border:3px #9ee98f;
+    border-radius: 10px;
+    margin-right: 15px;
+
+}
