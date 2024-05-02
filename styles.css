@@ -3,3 +3,11 @@ body{
 
     background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
 }
+
+.holamundo{
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(91, 69, 189);
+    padding: 35px;
+   
+}
