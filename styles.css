@@ -1,32 +1,33 @@
-
-body{
-
-    background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+* {
+    border-radius: 3%;
 }
 
-.holamundo{
+html {
+    height: 150%;
+}
+
+body {
+    background: linear-gradient(30deg, crimson, sienna, royalblue, indianred, purple);
+    display: flex;
+    flex-direction: column;
+}
+
+.holamundo {
     border-radius: 10px;
     text-align: center;
     background-color: rgb(91, 69, 189);
     padding: 35px;
-   
 }
 
-.bienvenidos{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.subtitulo h3{
+.subtitulo h3 {
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(189, 240, 6);
     font-family: Arial, Helvetica, sans-serif
-    
-
 }
 
-.subtitulo a{
+.subtitulo a {
     display: block;
     width: 60px;
     font-family: Arial, Helveticaf, sans-seri;
@@ -37,32 +38,61 @@ body{
     color: antiquewhite;
 }
 
-.descripcion{
+.descripcion {
     margin: 10;
     width: 70%;
 
 }
 
-img{
+img {
     max-width: 150px;
     float: left;
-    border:3px #9ee98f;
+    border: 3px #9ee98f;
     border-radius: 10px;
     margin-right: 15px;
 
 }
 
-
-.box{
+.box {
     width: 450px;
     background-color: cornflowerblue;
     font-family: Arial, Helvetica, sans-serif
-    
 }
 
-.UnPocodeMi{
+.box1 {
     border-radius: 10px;
-    width: 500px;
+    width: 100%;
     background-color: rgb(209, 212, 0);
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.descripcion {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contacto-y-musica {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+iframe {
+    height: 100%;
+    width: 25vw;
+}
+
+.un-poco-de-mi {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
 }
